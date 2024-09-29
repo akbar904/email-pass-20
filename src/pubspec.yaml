@@ -1,0 +1,22 @@
+name: simple_cubit_app
+description: A simple Flutter application demonstrating the use of Cubit for state management with a login screen and a home screen.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  bloc: ^8.1.1
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  mocktail: ^0.2.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
